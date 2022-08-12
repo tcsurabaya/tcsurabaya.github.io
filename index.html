@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-------------------------------------------Untuk Judul Kepala Website------------------------------------------------------------>
+  <title>TC SURABAYA</title>
+
+
+  <!-------------------------------------------Style.CSS dari Boostrap------------------------------------------------------------>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  <!-------------------------------------------Style.CSS Buatan Sendiri------------------------------------------------------------>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+  <!-------------------------------------------Untuk Tampilan Border Utama------------------------------------------------------------>
+
+  <nav>
+    <div class="wrapper">
+      <div class="logo"><a href="#">TC SURABAYA</a></div>
+      <div class="menu">
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="" data-toggle="modal" data-target="#myModal">TRAINING</a></li>
+          <li><a href="training/jadwal_training.php">JADWAL TRAINING</a></li>
+          <li><a href="" data-toggle="modal" data-target="#myModali">INPUT DATA</a></li>
+          <li><a href="http://ess-online.hrindomaret.com">ESS</a></li>
+          <li><a href="admin/admin.php?page=data" class="tbl-biru">ADMIN</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <!-------------------------------------------Untuk Tampilan Walpaper Utama------------------------------------------------------------>
+<div class="wrapper">
+  <section id="home">
+      <img src="https://cdn1-production-images-kly.akamaized.net/yZG44IAZXJnW9BcrgM4NRCMzcWc=/1200x675/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/1018535/original/053817000_1444657845-surbay.jpg" width="1200px" height="530px" />
+
+
+
+
+
+<!-------------------------------------------Untuk Tampilan Footer Contact------------------------------------------------------------>
+      <div id="contact">
+          <div class="wrapper">
+              <div class="footer">
+                  <div class="footer-section">
+                      <h3>Tc Surabaya</h3>
+                      <p>Adalah salah satu bagian dari PT. INDOMARCO PRISMATAMA, yang dimana sebagai tempat filter SDM karyawan baru</p>
+                  </div>
+                  <div class="footer-section">
+                      <h3>Contact</h3>
+                      <p>Jl. Raya Pilang, Pilang, Kec. Wonoayu, Kabupaten Sidoarjo, Jawa Timur<br />
+                          Kode Pos: 61261</p>
+                  </div>
+                  <div class="footer-section">
+                      <h3>Social</h3>
+                      <p><b>Instagram: </b>Training Center SBY</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <div id="copyright">
+          <div class="wrapper">
+              &copy; 2022. <b>Tc Surabaya</b> All Rights Reserved.
+          </div>
+      </div>
+
+
+  <!-------------------------------------------Untuk Menu Training------------------------------------------------------------>
+  <!-- The Modal -->
+  <div class="modal" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h1 class="modal-title">Training</h1>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+
+        <!-- Modal body -->
+        <div class="modal-body">
+          <div class="container mt-3">
+
+            <p>Silahkan melakukan pencarian sesuai dengan training yang dijalankan saat ini.</p>
+            <input class="form-control" id="myInput" type="text" placeholder="Search..">
+            <br>
+            <table class="table table-bordered">
+              <thead>
+                <tr>
+                  <th>Nama Training</th>
+                  <th>Link Training</th>
+                </tr>
+              </thead>
+              <tbody id="myTable">
+                <tr>
+                  <td>EVA HELPER</td>
+                  <td><a href="http://bit.ly/evaluasihelper_sby" class="tbl-biru">Klink Disini</a></td>
+                </tr>
+                <tr>
+                  <td>EVA DRIVER</td>
+                  <td><a href="http://bit.ly/evaluasidriver_sby" class="tbl-biru">Klink Disini</a></td>
+                </tr>
+                <tr>
+                  <td>EVA NEW CLERK</td>
+                  <td><a href="http://bit.ly/evaluasinewclerk_sby" class="tbl-biru">Klink Disini</a></td>
+                </tr>
+                <tr>
+                  <td>LJK PRE TEST STORE CREW</td>
+                  <td><a href="http://bit.ly/LJKSCPRE_SBY" class="tbl-biru">Klink Disini</a></td>
+                </tr>
+                <tr>
+                  <td>LJK POST TEST STORE CREW</td>
+                  <td><a href="http://bit.ly/LJKSCPOST_SBY" class="tbl-biru">Klink Disini</a></td>
+                </tr>
+                <tr>
+                  <td>EVA STORE CREW</td>
+                  <td><a href="http://bit.ly/evaluasick_sby" class="tbl-biru">Klink Disini</a></td>
+                </tr>
+                <tr>
+                  <td>EVA ORIENTASI CIF</td>
+                  <td><a href="http://bit.ly/evaluasicos_sby" class="tbl-biru">Klink Disini</a></td>
+                </tr>
+                <tr>
+                  <td>EVA ORIENTASI SSL</td>
+                  <td><a href="http://bit.ly/evaluasissl_sby" class="tbl-biru">Klink Disini</a></td>
+                </tr>
+                <tr>
+                  <td>EVA ORIENTASI SJL</td>
+                  <td><a href="http://bit.ly/evaluasisjl_sby" class="tbl-biru">Klink Disini</a></td>
+                </tr>
+                <tr>
+                  <td>EVA ELEARNING SBM</td>
+                  <td><a href="http://bit.ly/eva1e-learningsbm" class="tbl-biru">Klink Disini</a></td>
+                </tr>
+                <tr>
+                  <td>EVA1 SERTIFIKASI PICKER</td>
+                  <td><a href="http://bit.ly/evaluasiserpicker_sby" class="tbl-biru">Klink Disini</a></td>
+                </tr>
+                <tr>
+                  <td>EVA1 SERTIFIKASI SCANNER</td>
+                  <td><a href="http://bit.ly/evaluasiserscanner_sby" class="tbl-biru">Klink Disini</a></td>
+                </tr>
+                <tr>
+                  <td>EVA1 SERT TP& SLP-SPB</td>
+                  <td><a href="http://bit.ly/evaluasiserslpspb_sby" class="tbl-biru">Klink Disini</a></td>
+                </tr>
+                <tr>
+                  <td>EVA1 SERT KODEL & LOADING</td>
+                  <td><a href="http://bit.ly/evaluasiserhelper_sby" class="tbl-biru">Klink Disini</a></td>
+                </tr>
+                <tr>
+                  <td>EVA1 SERTIFIKASI RETUR</td>
+                  <td><a href="https://bit.ly/evaluasiserreturtoko_sby" class="tbl-biru">Klink Disini</a></td>
+                </tr>
+                <tr>
+                  <td>EVA2 SERT PICKER</td>
+                  <td><a href="http://bit.ly/evaluasievpicker_sby" class="tbl-biru">Klink Disini</a></td>
+                </tr>
+                <tr>
+                  <td>EVA2 SERT SCANNER</td>
+                  <td><a href="http://bit.ly/evaluasievscanner_sby" class="tbl-biru">Klink Disini</a></td>
+                </tr>
+                <tr>
+                  <td>EVA2 SERT TP & SLP-SPB</td>
+                  <td><a href="http://bit.ly/evaluasievslpspb_sby" class="tbl-biru">Klink Disini</a></td>
+                </tr>
+                <tr>
+                  <td>EVA2 SERT KODEL & LOADING</td>
+                  <td><a href="http://" class="tbl-biru">Klink Disini</a></td>
+                </tr>
+                <tr>
+                  <td>EVA2 SERT RETUR</td>
+                  <td><a href="http://" class="tbl-biru">Klink Disini</a></td>
+                </tr>
+                <tr>
+                  <td>LJK SERT PICKER</td>
+                  <td><a href="http://bit.ly/ljksertifikasipicker_sby" class="tbl-biru">Klink Disini</a></td>
+                </tr>
+                <tr>
+                  <td>LJK SERT SCANNER</td>
+                  <td><a href="http://bit.ly/ljksertifikasiscanner_sby" class="tbl-biru">Klink Disini</a></td>
+                </tr>
+                <tr>
+                  <td>LJK SERT TP & SLP-SPB</td>
+                  <td><a href="http://bit.ly/ljksertifikasislpspb_sby" class="tbl-biru">Klink Disini</a></td>
+                </tr>
+                <tr>
+                  <td>LJK SERT KODEL & LOADING</td>
+                  <td><a href="http://bit.ly/ljksertifikasikodelloading_sby" class="tbl-biru">Klink Disini</a></td>
+                </tr>
+                <tr>
+                  <td>LJK SERT RETUR</td>
+                  <td><a href="http://bit.ly/ljksertifikasireturtoko_sby" class="tbl-biru">Klink Disini</a></td>
+                </tr>
+                <tr>
+                  <td>LJK EVASERT PICKER</td>
+                  <td><a href="http://bit.ly/ljkevaserpicker_sby" class="tbl-biru">Klink Disini</a></td>
+                </tr>
+                <tr>
+                  <td>LJK EVASERT SCANNER</td>
+                  <td><a href="http://bit.ly/ljkevaserscanner_sby" class="tbl-biru">Klink Disini</a></td>
+                </tr>
+                <tr>
+                  <td>LJK EVASERT TP & SLP-SPB</td>
+                  <td><a href="http://bit.ly/ljkevaserslpspb_sby" class="tbl-biru">Klink Disini</a></td>
+                </tr>
+                <tr>
+                  <td>LJK EVASERT KODEL & LOADING</td>
+                  <td><a href="http://" class="tbl-biru">Klink Disini</a></td>
+                </tr>
+                <tr>
+                  <td>LJK EVASERT RETUR</td>
+                  <td><a href="http://" class="tbl-biru">Klink Disini</a></td>
+                </tr>
+                <tr>
+                  <td>EVA ELEARNING SPECIAL STORE</td>
+                  <td><a href="http://bit.ly/EVA1-ELEARNING-PP-PERSONILSBY" class="tbl-biru">Klink Disini</a></td>
+                </tr>
+                <tr>
+                  <td>EVA YUMMY COFFEE GOLD</td>
+                  <td><a href="http://bit.ly/evaluasiyccg_sby" class="tbl-biru">Klink Disini</a></td>
+                </tr>
+                <tr>
+                  <td>EVA POINT COFFEE</td>
+                  <td><a href="http://bit.ly/evaluasi_pccluster3" class="tbl-biru">Klink Disini</a></td>
+                </tr>
+                <tr>
+                  <td>EVA EVABUL STORE CREW</td>
+                  <td><a href="http://bit.ly/evaluasievabul_sby" class="tbl-biru">Klink Disini</a></td>
+                </tr>
+                <tr>
+                  <td>LJK EVABUL STORE CREW</td>
+                  <td><a href="http://bit.ly/ljkevabul_sby" class="tbl-biru">Klink Disini</a></td>
+                </tr>
+                <tr>
+                  <td>LJK ORIENTASI CIF</td>
+                  <td><a href="http://bit.ly/ljkorientasicif_sby" class="tbl-biru">Klink Disini</a></td>
+                </tr>
+                <tr>
+                  <td>LJK ORIENTASI SSL</td>
+                  <td><a href="http://bit.ly/ljkorientasissl_sby" class="tbl-biru">Klink Disini</a></td>
+                </tr>
+                <tr>
+                  <td>LJK ORIENTASI SJL</td>
+                  <td><a href="http://bit.ly/ljkorientasisjl_sby" class="tbl-biru">Klink Disini</a></td>
+                </tr>
+                <tr>
+                  <td>EVA ELEARNING MISDO</td>
+                  <td><a href="http://" class="tbl-biru">Klink Disini</a></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td><a href="http://" class="tbl-biru">Klink Disini</a></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td><a href="http://" class="tbl-biru">Klink Disini</a></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td><a href="http://" class="tbl-biru">Klink Disini</a></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td><a href="http://" class="tbl-biru">Klink Disini</a></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td><a href="http://" class="tbl-biru">Klink Disini</a></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td><a href="http://" class="tbl-biru">Klink Disini</a></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td><a href="http://" class="tbl-biru">Klink Disini</a></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td><a href="http://" class="tbl-biru">Klink Disini</a></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td><a href="http://" class="tbl-biru">Klink Disini</a></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td><a href="http://" class="tbl-biru">Klink Disini</a></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td><a href="http://" class="tbl-biru">Klink Disini</a></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td><a href="http://" class="tbl-biru">Klink Disini</a></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td><a href="http://" class="tbl-biru">Klink Disini</a></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td><a href="http://" class="tbl-biru">Klink Disini</a></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td><a href="http://" class="tbl-biru">Klink Disini</a></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td><a href="http://" class="tbl-biru">Klink Disini</a></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td><a href="http://" class="tbl-biru">Klink Disini</a></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td><a href="http://" class="tbl-biru">Klink Disini</a></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td><a href="http://" class="tbl-biru">Klink Disini</a></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td><a href="http://" class="tbl-biru">Klink Disini</a></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td><a href="http://" class="tbl-biru">Klink Disini</a></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td><a href="http://" class="tbl-biru">Klink Disini</a></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td><a href="http://" class="tbl-biru">Klink Disini</a></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td><a href="http://" class="tbl-biru">Klink Disini</a></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td><a href="http://" class="tbl-biru">Klink Disini</a></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td><a href="http://" class="tbl-biru">Klink Disini</a></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td><a href="http://" class="tbl-biru">Klink Disini</a></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td><a href="http://" class="tbl-biru">Klink Disini</a></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td><a href="http://" class="tbl-biru">Klink Disini</a></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td><a href="http://" class="tbl-biru">Klink Disini</a></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td><a href="http://" class="tbl-biru">Klink Disini</a></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td><a href="http://" class="tbl-biru">Klink Disini</a></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td><a href="http://" class="tbl-biru">Klink Disini</a></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td><a href="http://" class="tbl-biru">Klink Disini</a></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td><a href="http://" class="tbl-biru">Klink Disini</a></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td><a href="http://" class="tbl-biru">Klink Disini</a></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td><a href="http://" class="tbl-biru">Klink Disini</a></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td><a href="http://" class="tbl-biru">Klink Disini</a></td>
+                </tr>
+
+
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <script>
+          $(document).ready(function() {
+            $("#myInput").on("keyup", function() {
+              var value = $(this).val().toLowerCase();
+              $("#myTable tr").filter(function() {
+                $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+              });
+            });
+          });
+        </script>
+
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-------------------------------------------Untuk Input Data Karyawan------------------------------------------------------------>
+  <!-- The Modal -->
+  <div class="modal" id="myModali">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h1 class="modal-title">Input Data</h1>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+
+        <!-- Modal body -->
+        <div class="modal-body">
+
+
+          <div class="container">
+            <form action="controllers/proses_input_data.php" method="post">
+              <div class="form-group">
+                <label>NIK:</label>
+                <input type="text" class="form-control" placeholder="Ketik NIK" name="nik">
+              </div>
+
+              <div class="form-group">
+                <label>Nama:</label>
+                <input type="text" class="form-control" placeholder="Ketik Nama" name="nama">
+              </div>
+
+              <div class="form-group">
+                <label>Nomor I-Saku:</label>
+                <input type="text" class="form-control" placeholder="Ketik Nomor I-saku" name="nomor_isaku">
+              </div>
+
+              <div class="form-group">
+                <label>Nomor WhatSapp:</label>
+                <input type="text" class="form-control" placeholder="Ketik Nomor WhatSapp" name="nomor_whatsapp">
+              </div>
+
+              <button type="submit" class="tbl-biru">Input Data</button>
+            </form>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+
+  <?php
+
+  include 'libs.php';
+
+  ?>
+
+
+
+
+</body>
+
+</html>
